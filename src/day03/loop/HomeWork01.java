@@ -17,7 +17,6 @@ public class HomeWork01 {
 				} else {
 					System.out.print("*");
 				} 
-
 			}
 			System.out.println(); 	//°³Çà
 		}
