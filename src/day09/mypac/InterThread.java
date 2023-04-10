@@ -1,10 +1,10 @@
 package day09.mypac;
 
-public class MyThread extends Thread {
-	
+public class InterThread implements Runnable{
+
 	@Override
 	public void run() {
-		System.out.println("MyThread 만의 작업을 해요!");
+		System.out.println("InterThread가 시작되었습니다.");
 		
 		try {
 			Thread.sleep(2000);
@@ -12,6 +12,8 @@ public class MyThread extends Thread {
 			e.printStackTrace();
 		}
 		
-		System.out.println("MyThread 가 종료됩니다.");
+		System.out.println("InterThread가 종료되었습니다.");
+		
 	}
+
 }

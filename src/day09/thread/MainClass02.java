@@ -10,4 +10,5 @@ public class MainClass02 {
 		
 		System.out.println("메인스레드 종료!");
 	}
+
 }
